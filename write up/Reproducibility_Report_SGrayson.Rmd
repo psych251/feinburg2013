@@ -1,6 +1,6 @@
 ---
-title: "Reproducibility Report for Study X by Sample & Sample (20xx, Psychological Science)"
-author: "Reproducibility Project Author[s] (contact information)"
+title: "Reproducibility Report for Gossip and Ostracism Promote Cooperation in Groups by Feinburg, Willer & Schultz (2014, Psychological Science)"
+author: "Reproducibility Project Author: Sam Grayson (sjg2@stanford.edu)"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output:
   html_document:
