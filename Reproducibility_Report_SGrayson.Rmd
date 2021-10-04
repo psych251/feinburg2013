@@ -1,0 +1,105 @@
+---
+title: "Reproducibility Report for Study X by Sample & Sample (20xx, Psychological Science)"
+author: "Reproducibility Project Author[s] (contact information)"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+---
+
+<!-- Reproducibility reports should all use this template to standardize reporting across projects. These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
+
+## Introduction
+
+[No abstract is needed.]  Each reproducibility project will have a straightforward, no frills report of the study and reproducibility results. These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole.  Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of your attempt to reproduce the results. Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for your reproducibility attempt, and any other essential information.  It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.  
+
+**Clarify key analysis of interest here**  
+1. To investigate the effect of gossip and exclusion on cooperation, we will run within-subjects ANOVA tests comparing contributions across the three experimental games.
+2. To assess how contributions changed as the rounds of the public goods game progressed, we will conduct a two-way within-subjects ANOVA for Type of Game (Neutral, Gossip, Ostracism) x Round. 
+3. We will run regression analyses to see how gossip relates to the recipient's contribution amount. 
+4. We will run logistic regression analyses to determine whether participant reputation strength predicted subsequent exclusion from the public goods game.
+5. To test whether how much a player's contribution negatively deviated from the mean related to subsequent ostacism as well as reputation score, we will run logistic regression analyses. 
+6. To see how ostracism related to changes in contributions, we will run regression analyses. 
+7. We will use t-tests to see if ostracized individuals' contributions post-exclusion are statistically  similar to their non-ostracized counterparts. 
+8. To investigate how individual earnings related to game type, we will conduct a within-subject ANOVA test.
+9. We will run regression analyses to determine how earning levels trended across rounds.
+10. To see how individual contribution amounts related to their amount of gossip, we will run logistic regression analyses. 
+
+### Justification for choice of study
+
+  I have chosen to reproduce the results Feinburg & Willer's 2013 paper on Gossip and Cooperation because it relates directly to my research in Jamil Zaki's lab. We are currently designing an experiment to investigate the chilling effects of gossip on interpersonal trust. We hypothesize that the spread of negative reputational information engenders cynicism, while perhaps, on the other end of the spectrum, positive information may promote optimism. The study I will be reproducing in this course provides essential context for this upcoming project. Understanding how gossip functions in their population to either incentive or deter contributions to a communal fund in a public goods game will lay groundwork upon which we can build. I hope to use the information obtained through this reproduction as pilot work for an eventual paper. 
+  I have spoken to Jamil about potential funds to run a full replication of Feinburg & Willer's study. If those can be acquired, then I will be shifting this project from a reproduction to a replication. 
+
+### Anticipated challenges
+
+Do you anticipate running into any challenges when attempting to reproduce these result(s)? If so please, list them here.
+  This paper has no OSF entry, nor is there much documentation in the supplementary information. I expect it to be challenging for me to figure out exactly what statistical tests the authors conducted so that I can reproduce their findings.  
+
+### Links
+
+Project repository (on Github): https://github.com/samgrays0n/feinburg2013.git
+
+Original paper (as hosted in your repo): 
+
+## Methods
+
+### Description of the steps required to reproduce the results
+
+Please describe all the steps necessary to reproduce the key result(s) of this study. 
+
+### Differences from original study
+
+Explicitly describe known differences in the analysis pipeline between the original paper and yours (e.g., computing environment). The goal, of course, is to minimize those differences, but differences may occur. Also, note whether such differences are anticipated to influence your ability to reproduce the original results.
+
+## Project Progress Check 1
+
+### Measure of success
+
+Please describe the outcome measure for the success or failure of your reproduction and how this outcome will be computed.
+
+
+### Pipeline progress
+
+Earlier in this report, you described the steps necessary to reproduce the key result(s) of this study. Please describe your progress on each of these steps (e.g., data preprocessing, model fitting, model evaluation).
+
+
+## Results
+
+### Data preparation
+
+Data preparation following the analysis plan.
+	
+```{r include=F}
+### Data Preparation
+
+#### Load Relevant Libraries and Functions
+
+#### Import data
+
+#### Data exclusion / filtering
+
+#### Prepare data for analysis - create columns etc.
+```
+
+### Key analysis
+
+The analyses as specified in the analysis plan.  
+
+*Side-by-side graph with original graph is ideal here*
+
+###Exploratory analyses
+
+Any follow-up analyses desired (not required).  
+
+## Discussion
+
+### Summary of Reproduction Attempt
+
+Open the discussion section with a paragraph summarizing the primary result from the key analysis and assess whether you successfully reproduced it, partially reproduced it, or failed to reproduce it.  
+
+### Commentary
+
+Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis of the dataset, (b) assessment of the meaning of the successful or unsuccessful reproducibility attempt - e.g., for a failure to reproduce the original findings, are the differences between original and present analyses ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the reproducibility attempt (if you contacted them).  None of these need to be long.
