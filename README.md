@@ -1,1 +1,2 @@
-# feinburg2013
+# This is a repository for Sam Grayson's PSYCH 251 reproduction project.
+# I will be reproducing results from Feinburg, Willer, and Schultz' 2013 study "Gossip and Ostracism Promote Cooperation in Groups"
