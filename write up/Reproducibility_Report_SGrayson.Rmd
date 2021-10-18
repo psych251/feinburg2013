@@ -48,11 +48,17 @@ Original paper (as hosted in your repo): https://github.com/samgrays0n/feinburg2
 
 ### Description of the steps required to reproduce the results
 
-Please describe all the steps necessary to reproduce the key result(s) of this study. 
+Please describe all the steps necessary to reproduce the key result(s) of this study.
+1. Convert data to CSV from SPSS
+2. Clean data, so it only contains the relevant variables (there are over 400 variables in the raw data).
+3. Solidify the statistical models. It seems that I will be using primarily ANOVAs and regressions, however it is unclear how exactly the original authors set up their models. Determining what exact models were used may require reaching back out to the authors - although I hope that I can sort it out on my own. 
+4. Code appropriate statistical tests in R Markdown and run them. 
 
 ### Differences from original study
 
 Explicitly describe known differences in the analysis pipeline between the original paper and yours (e.g., computing environment). The goal, of course, is to minimize those differences, but differences may occur. Also, note whether such differences are anticipated to influence your ability to reproduce the original results.
+
+I received the data is SPSS, so I am assuming that is where the authors ran their analyses as well. I will be running mine in R, and as such, there is a difference in computing environments. I don't think that this will affect my ability to reproduce the results. 
 
 ## Project Progress Check 1
 
